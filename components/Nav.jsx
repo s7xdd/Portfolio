@@ -6,9 +6,12 @@ const Nav = () => {
   return (
     <div>
         <nav className="flex justify-between px-10">
-                <h1 className="text-white hover:text-red-400 cursor-none text-xl" style={{fontFamily: "SingleDay"}}>little did u know</h1>
-                <ul className="flex items-center">
+                <h1 className="text-white hover:text-red-400 cursor-none text-xl" 
+                style={{fontFamily: "SingleDay", textDecoration: "none"}}
+                >little did u know</h1>
 
+                <ul className="flex items-center">
+                  
                     <li className="px-4">
                     <IoMoonOutline 
                         className=" hover:text-white cursor-pointer" 
