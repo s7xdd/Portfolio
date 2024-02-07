@@ -5,7 +5,7 @@ import React from 'react';
 const Nav = () => {
   return (
     <div>
-        <nav className="py-3 flex justify-between px-10">
+        <nav className="flex justify-between px-10">
                 <h1 className="text-white hover:text-red-400 cursor-none text-xl" style={{fontFamily: "SingleDay"}}>little did u know</h1>
                 <ul className="flex items-center">
 

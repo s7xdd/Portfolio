@@ -1,22 +1,22 @@
-import { HiArrowCircleDown } from "react-icons/hi";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { SlSocialGithub } from "react-icons/sl";
-import scrollToBottom from "./ScrollToBottom";
+import ScrollButton from "./ScrollButton";
 
 export default function Main(){
     return(
         <div>
             <section className="min-h-screen">
-                <div className=" flex col-span-1">
-                {/* <h1 className="text-2xl text-white">Hello world</h1> */}
-                </div>
-
                 <div className="text-center flex col-span-1 justify-center py-36">
                     <div>
                         <div>
                         <h1 className="text-white font-thin flex justify-center">Hello world! My name is</h1>
                         <h1 className="text-8xl text-teal-200 mt-2 font-bold">Mohammed Shamil</h1>
-                        <h1 className="text-white hover:text-3xl transition-all duration-500 flex justify-center text-xl mt-3">a soon to be software developer</h1>  
+                        <h1 
+                           className="text-white text-xl hover:text-3xl transition-all duration-500 flex justify-center mt-3"
+                           style={{textDecoration: "none"}}
+                           >a soon to be software developer
+                        </h1>  
+                        
                         </div>
 
                         <div>
@@ -38,20 +38,18 @@ export default function Main(){
                         </div>
                         </div>
 
+                        <div>
+                            
+                        </div>
+
                         <div className="flex justify-center mt-12">
-                            <HiArrowCircleDown  
-                            className="animate-bounce w-16 h-16 cursor-pointer" 
-                            style={{color: "white", textDecoration: "none"}}
-                            onClick={() => {
-                                scrollToBottom();
-                            }}
-                            />
+                            <ScrollButton />
                         </div>
 
                     </div>
                 </div>
 
-                <div className="text-white text-center mt-36">
+                <div className="text-white text-center mt-14">
                     <h5>Class of 2024</h5>
                 </div>
 
