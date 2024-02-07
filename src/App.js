@@ -1,18 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from './Button';
+import Home from './home';
+import React from 'react';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <strong>Hello World! </strong>
-          <span role="img" aria-label="smiley face"> 😊</span>          
-        </p>
-        <Button />
-      </header>
+    <div className="bg-gray-900 h-screen">
+      <Home />
     </div>
   );
 }
