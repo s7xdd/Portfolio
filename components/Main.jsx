@@ -9,8 +9,8 @@ export default function Main(){
                 <div className="text-center flex col-span-1 justify-center py-36">
                     <div>
                         <div>
-                        <h1 className="text-white font-thin flex justify-center">Hello world! My name is</h1>
-                        <h1 className="text-8xl text-teal-200 mt-2 font-bold">Mohammed Shamil</h1>
+                        <h1 className="text-white font-thin flex-inital justify-center">Hello world! My name is</h1>
+                        <h1 className="text-6xl lg:text-8xl text-teal-200 mt-2 font-bold">Mohammed Shamil</h1>
                         <h1 
                            className="text-white text-xl hover:text-3xl transition-all duration-500 flex justify-center mt-3"
                            style={{textDecoration: "none"}}
@@ -38,9 +38,7 @@ export default function Main(){
                         </div>
                         </div>
 
-                        <div>
-                            
-                        </div>
+                        <div></div>
 
                         <div className="flex justify-center mt-12">
                             <ScrollButton />
