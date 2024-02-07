@@ -2,6 +2,16 @@
 export default function Aboutme(){
     return(
         <div>
+            <div>
+                
+                <section>
+                    <div className="mt-5 mb-3">
+                        <h1 className="text-center text-white flex justify-center text-2xl ">I am currently a Computer Science student doing my final year</h1>
+                    </div>
+                </section>
+
+            </div>
+
             <div className="card text-bg-info mb-5" style={{maxwidth: "40rem"}}>
                 <div className="card-header text-center">About me</div>
                 <div className="card-body">
