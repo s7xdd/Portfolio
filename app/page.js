@@ -1,7 +1,7 @@
 "use client";
 import { useRef } from "react";
 import 'bootstrap/dist/css/bootstrap.css'
-import AboutMe from '@/components/AboutMe.jsx'
+import Aboutme from '@/components/Aboutme.jsx'
 import Main from '@/components/Main.jsx'
 import Nav from '@/components/Nav.jsx'
 
@@ -20,7 +20,7 @@ export default function Home() {
       </div>
 
       <div>
-        <AboutMe />
+        <Aboutme />
       </div>
       
     </div>  

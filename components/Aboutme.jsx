@@ -1,5 +1,5 @@
 
-export default function AboutMe(){
+export default function Aboutme(){
     return(
         <div>
             <div>
